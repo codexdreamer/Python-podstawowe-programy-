@@ -1,7 +1,7 @@
 
 #liczbie liczby znaków , lini oraz słów w pliku txt
 
-sciezka_pliku = '/home/sartosz/Pulpit/Tekst.txt'
+sciezka_pliku = '/home/bartosz/Pulpit/Tekst.txt' #sciezka do pliku (używam linuxa)
 
 try:
     with open(sciezka_pliku, 'r', encoding='utf-8') as plik:
